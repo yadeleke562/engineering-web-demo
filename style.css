@@ -1,0 +1,230 @@
+body{
+    text-align: center;
+}
+header{
+    background: #000;
+}
+p{
+    color: #fff;
+    text-align: center;
+}
+h2{
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 42px;
+}
+h3, h6{
+    color: #000;
+     font-weight: bold;
+} 
+h3{
+    font-size: 42px;
+   
+}
+h5{
+    color: orangered;
+    padding-top: 50px;
+}
+.icon{
+    color: orangered;
+}
+
+.icon1{
+    font-size: 1.5rem;
+    padding: 0 10px;
+
+}
+.icon2{
+    color: orangered;
+    font-size: 2rem;
+    padding: 30px 0 10px 250px;
+}
+@media (max-width: 900px) {
+    .icon2 {
+        justify-content: end;
+        align-items: end;
+        padding: 0 0 10px 0 ;
+        text-align: end;
+    }
+}
+/* headeeerrr section */
+.head{
+    font-family: 'Noto Serif Telugu', serif;
+    font-family: 'Righteous', cursive;
+}
+
+.top{
+    color: #fff;
+    font-weight: bold;
+}
+.top:hover{
+    color: orangered;
+}
+.headerbtn{
+    border: 1px solid #fff;
+    background: #000;
+}
+
+
+.border{
+    height: 40px;
+    width: 40px;
+    background: orangered;
+    border-radius: 100%;
+    margin-bottom: 20px;
+    border: 2px solid #000;
+}
+.border1{
+    background: orangered;
+    color: #fff;
+     margin-bottom: 20px;
+   
+}
+.border1:hover{
+    background: orangered;
+    color: #fff;
+}
+
+
+/* abouuuut section */
+.image{
+    margin: 50px 0 100px 0;
+}
+.about-text{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+@media (max-width: 900px) {
+    .image {
+        margin-bottom: 20px;
+    }
+}
+
+
+.abt1{
+    color: orangered;
+}
+
+.abt2{
+    background: #fff;
+      color: orangered;
+      border: 1px solid orangered;
+      margin-top: 10px;
+}
+.abt2:hover {
+    background: orangered;
+    color: #fff;
+}
+
+
+/* missssioon section */
+
+
+.miss{
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.card {
+    box-shadow: 0 2px 14px 0 rgba(47, 60, 83, 0.16);
+}
+.body-text{
+    color: #000;
+    font-size: 12px;
+}
+
+
+/* projeccct section */
+
+.pro{
+    color: orangered;
+    font-size: 13px;
+}
+
+
+
+
+/* conttaact section */
+
+
+.contact-image{
+    background: url(./images/backgroung-img.jpg) ;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat:no-repeat;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}   
+
+
+
+.contact-body{
+    margin: 0 20px 50px 60px;
+    position: relative;
+    background: transparent;
+
+}
+
+.contact-body::before{
+    content: '';
+    position: absolute;
+    background: rgba(0, 0, 0, .5);
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+}
+
+.contact1{
+    padding-top: 200px;
+    color: #fff;
+    font-weight: bold;
+}
+
+@media (max-width: 900px){
+    .contact1{
+        padding-top: 100px;
+    }
+}
+.contact-text{
+    color: #fff;
+    font-weight: bold;
+    font-size: 50px;
+}
+.contact2{
+    text-transform: uppercase;
+    font-weight: bold;
+    position: relative;
+    z-index: 1;
+    box-shadow: 0 2px 14px 0 rgba(38, 107, 226, 0.16);
+    top: 100px;
+}
+.contact-text1{
+    padding: 30px 0 40px 20px;
+    font-weight: bolder;
+    
+}
+/* foooooter section */
+.footer{
+    color: #000;
+    margin-top: 150px;
+    position: absolute;
+
+}
+.last{
+    color: #000;
+    text-align: start;
+}
+.account{
+    color: #000;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.lorem{
+    text-align: center;
+    color: #000;
+    margin-bottom: 70px;
+}
